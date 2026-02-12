@@ -69,8 +69,9 @@ body {
 
 /* HERO SECTION */
 .hero-section {
-    min-height: 100vh;
+    min-height: 90vh;
     padding-top: 80px;
+     
 }
 
 .hero-img {
@@ -78,8 +79,12 @@ body {
     height: 300px;
     object-fit: cover;
     border: 1px solid #6c757d;              
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3); 
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    
 }
+
+
+
 
 .social-links a {
     color: white;
@@ -92,13 +97,24 @@ body {
     color: #22d3ee;
 }
 
+
+.edu {
+    border-radius: 25px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+}
+.edu:hover{
+    background-color: #172345;
+}
+
+
+
 /* ABOUT SECTION */
 .about-card {
     background: rgba(255, 255, 255, 0.05);
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
     padding: 20px;
-    transition: 0.3s;
+    
 }
 
 .about-card:hover {
@@ -189,16 +205,17 @@ body {
         padding: 20px 0;
         border-bottom: 1px solid rgba(255,255,255,0.1);
         
-        /* Hide by default */
+        
         display: none; 
+        
     }
 
     .menu.active {
-        display: flex; /* Show when active class is added */
+        display: flex; 
     }
 
     .menu-toggle {
-        display: block; /* Show hamburger icon */
+        display: block; 
     }
 
     .hero-img {
@@ -222,4 +239,3 @@ body {
   text-decoration: none;
   color: white;
 }
-
